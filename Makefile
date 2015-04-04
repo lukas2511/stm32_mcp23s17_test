@@ -1,6 +1,6 @@
 UNIXTIME ?= $(shell date +%s)
 
-TARGET ?= test
+TARGET ?= test_bincount
 LINKTHING ?= stm32.ld
 
 all: $(TARGET).bin
